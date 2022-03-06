@@ -1,0 +1,73 @@
+.header{
+    background-image: url(montruos.jpg);
+    font-size: xx-large;
+    font-family: fantasy;
+    font-weight: bold;
+    color: #f7d26a;
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+.content{
+    text-align: center;
+    background-color: #f7d26a;
+    padding-top: 90px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+}
+.contentcatalogo{
+    text-align: start;
+    background-color: #f7d26a;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+}
+img{
+    border-radius:10px ;
+    align-self: auto;
+}
+.footer{
+    background-color: crimson;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+::-webkit-scrollbar {
+    width: 30px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 1 1 5px grey;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #5dc993;
+    border-radius: 5px;
+  }
+  .pedido{
+      text-align: left;
+  }
+  .enviar{
+      text-align: right;
+  }
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+.pedido{
+    text-align: right;
+}
+.catalogo{
+    text-align: left;
+}
+.horden{
+    background-color: beige;
+    color: brown;
+}
+.corden{
+    background-color: grey;
+}

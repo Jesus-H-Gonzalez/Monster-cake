@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <script Language="Javascript"> alert("¡ATENCIÓN! Estás a punto de hacer un pedido en Monstercakes"); </script>
+    </script>
+    <link href="monstercakeestilo.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="header">
+    <h1>Aquí puedes hacer tu pedido</h1>
+    </div>
+    <div class="contentcatalogo">
+    <h2>Antes de continuar escribe la información que se solicita para darle seguimiento a tu pedido</h2>
+    <form action="/action_page.php">
+        <fieldset>
+          <label for="fname">Nombre(s) :</label>
+          <input type="text" id="fname" name="fname" placeholder='Nombre' autofocus autocomplete required><br><br>
+          <label for="lname">Apellido paterno :</label>
+          <input type="text" id="lname" name="lname" placeholder='Primer apellido'><br><br>
+          <label for="lname">Apellido materno :</label>
+          <input type="text" id="lname" name="lname" placeholder='Segundo apellido'><br><br>
+          <label for="phone">Número telefónico :</label>
+          <input type="tel" id="phone" name="phone" placeholder="No.telefónico"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder='Correo electrónico'><br><br>
+          <label for="birthday">Fecha de entrega :</label>
+          <input type="date" id="birthday" name="birthday" required><br><br>
+        </fieldset>
+        <input type="reset">
+      </form>
+    </div>
+      <a href="ordendelpastel.html">
+        <button href="catalogomonstercake.html">Enviar</button>
+      </a>
+</body>
+</html>
